@@ -18,10 +18,10 @@ header {
 }
 
 .car-gallery img {
-  width: 35%;
-  border-radius: 10px;
+  width: 10%;
+  border-radius: 5px;
   display: block;
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .card {
