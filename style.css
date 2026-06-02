@@ -48,9 +48,11 @@ header {
 }
 
 .logo {
-  width: 110px;
-  margin-bottom: 10px;
-  filter: drop-shadow(0 0 10px rgba(255,255,255,0.15));
+  width: 120px;
+  max-width: 40%;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px auto;
 }
 
 .gallery {
@@ -163,6 +165,15 @@ footer {
 }
 
 @media (max-width: 768px) {
+
+  .site-header {
+  padding: 25px 15px;
+}
+
+.logo {
+  width: 90px;
+  margin-bottom: 10px;
+}
 
   /* NAVBAR */
   .navbar {
