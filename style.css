@@ -27,24 +27,24 @@ header {
 }
 
 .car-gallery img {
-  width: 14%;
+  width: 25%;
   border-radius: 7px;
   display: block;
   margin: 14px auto;
 }
 
 .street-gallery img {
-  width: 10%;
-  border-radius: 5px;
+  width: 25%;
+  border-radius: 7px;
   display: block;
-  margin: 10px auto;
+  margin: 14px auto;
 }
 
 .portrait-gallery img {
-  width: 10%;
-  border-radius: 5px;
+  width: 25%;
+  border-radius: 7px;
   display: block;
-  margin: 10px auto;
+  margin: 14px auto;
 }
 
 .card {
