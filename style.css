@@ -48,10 +48,9 @@ header {
 }
 
 .logo {
-  width: 120px;
-  height: auto;
-  display: block;
-  margin: 0 auto 15px auto;
+  width: 110px;
+  margin-bottom: 10px;
+  filter: drop-shadow(0 0 10px rgba(255,255,255,0.15));
 }
 
 .gallery {
