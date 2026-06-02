@@ -256,6 +256,10 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .gallery-grid img {
+    height: 200px;
+  }
+}
 
   .review-card {
   flex-direction: column;
