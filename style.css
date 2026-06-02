@@ -257,8 +257,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-
-  .gallery-grid {
+  .gallery {
     grid-template-columns: 1fr;
   }
 
