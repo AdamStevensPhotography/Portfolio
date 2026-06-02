@@ -5,6 +5,23 @@ body {
   color: white;
 }
 
+.gallery-link {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+    background: #222;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.gallery-link:hover {
+    background: #444;
+    transform: translateY(-3px);
+}
+
 header {
   position: relative;
   text-align: center;
