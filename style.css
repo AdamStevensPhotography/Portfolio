@@ -24,6 +24,20 @@ header {
   margin: 10px auto;
 }
 
+.street-gallery img {
+  width: 10%;
+  border-radius: 5px;
+  display: block;
+  margin: 10px auto;
+}
+
+.portrait-gallery img {
+  width: 10%;
+  border-radius: 5px;
+  display: block;
+  margin: 10px auto;
+}
+
 .card {
   background: #222;
   padding: 10px;
