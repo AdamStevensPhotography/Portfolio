@@ -227,6 +227,18 @@ footer {
 
 .review-card img {
   margin-bottom: 10px;
+}.review-card {
+  flex-direction: column;
+  text-align: center;
+}
+
+.review-card img {
+  width: 140px;
+  height: 140px;
+}
+
+.review-text {
+  text-align: center;
 }
 
   .site-header {
