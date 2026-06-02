@@ -47,6 +47,13 @@ header {
   margin-right: 10px auto;
 }
 
+.event-gallery img {
+  width: 20%;
+  border-radius: 7px;
+  display: inline-block;
+  margin-right: 10px auto;
+}
+
 .card {
   background: #222;
   padding: 10px;
