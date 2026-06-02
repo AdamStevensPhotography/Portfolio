@@ -228,6 +228,15 @@ footer {
 
 @media (max-width: 768px) {
 
+  .review-card {
+  flex-direction: column;
+  text-align: center;
+}
+
+.review-card img {
+  margin-bottom: 10px;
+}
+
   .site-header {
   padding: 25px 15px;
 }
