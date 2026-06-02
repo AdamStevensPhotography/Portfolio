@@ -5,6 +5,10 @@ body {
   color: white;
 }
 
+a {
+    font-family: Arial, sans-serif;
+}
+
 header {
   position: relative;
   text-align: center;
