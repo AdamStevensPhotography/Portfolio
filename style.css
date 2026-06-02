@@ -27,21 +27,21 @@ header {
 }
 
 .car-gallery img {
-  width: 25%;
+  width: 20%;
   border-radius: 7px;
   display: inline-block;
   margin-right: 10px auto;
 }
 
 .street-gallery img {
-  width: 25%;
+  width: 20%;
   border-radius: 7px;
   display: inline-block;
   margin-right: 10px auto;
 }
 
 .portrait-gallery img {
-  width: 25%;
+  width: 20%;
   border-radius: 7px;
   display: inline-block;
   margin-right: 10px auto;
