@@ -5,7 +5,36 @@ body {
   color: white;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+  background: #000;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
+.nav-logo {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  background: white;
+  color: black;
+}
 
 header {
   position: relative;
