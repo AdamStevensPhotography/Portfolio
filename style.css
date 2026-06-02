@@ -126,12 +126,12 @@ footer {
 
 .about-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 30px;
-  max-width: 1000px;
+  text-align: center;
+  gap: 20px;
+  max-width: 800px;
   margin: auto;
-  flex-wrap: wrap;
 }
 
 .about-img {
