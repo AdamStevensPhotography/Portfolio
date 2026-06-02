@@ -5,22 +5,7 @@ body {
   color: white;
 }
 
-.gallery-link {
-    display: inline-block;
-    padding: 12px 24px;
-    margin: 10px;
-    background: #222;
-    color: white;
-    text-decoration: none;
-    border-radius: 25px;
-    font-weight: bold;
-    transition: all 0.3s ease;
-}
 
-.gallery-link:hover {
-    background: #444;
-    transform: translateY(-3px);
-}
 
 header {
   position: relative;
@@ -73,13 +58,30 @@ header {
 
 .card {
   background: #222;
-  padding: 10px;
-  border-radius: 10px;
+  border-radius: 12px;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card img {
   width: 100%;
-  border-radius: 10px;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.card h2 {
+  margin: 0;
+  padding: 12px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
 }
 
 footer {
