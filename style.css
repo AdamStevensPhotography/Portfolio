@@ -5,6 +5,34 @@ body {
   color: white;
 }
 
+.contact-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-card {
+  background: #222;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-card h2 {
+  margin-top: 0;
+}
+
+.contact-card a {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+}
+
+.contact-card a:hover {
+  color: #ccc;
+}
+
 .gallery-header {
   text-align: center;
   padding: 40px 20px;
